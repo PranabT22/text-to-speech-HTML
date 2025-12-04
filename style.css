@@ -10,7 +10,7 @@
 
 textarea {
     padding: 10px;
-    color: white;
+    color: rgb(7, 7, 7);
     border-radius: 8px;
     outline: none;
     border: 1px solid aqua;
@@ -28,3 +28,4 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
