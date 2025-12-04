@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1> Text to Speech</h1>
+    <title>Text to Voice</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<!-- The code below used speechSynthesis.speak which is a built-in JavScript that allows for speech capabilities and the .speak tells the browser to start speaking -->
+<body class="page-background"> 
+    <textarea id="t" placeholder="Type here..."></textarea>
+    <!-- The new (new SpeechSynthesisUtterance(document.getElementById('t').value)) tells the JavaScript to hold the text that will be spoken-->
+    <button onclick="speechSynthesis.speak(new SpeechSynthesisUtterance(document.getElementById('t').value))">Speak</button>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.page-background { 
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(227, 245, 245);
+    resize: none;
+    background-color: #13beb3; 
+}
+
+textarea {
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid aqua;
+    resize: none;
+    background-color: #ffffff;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f73c39;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
